@@ -1,0 +1,14 @@
+nested class design a class inside a class
+
+ what is the nested class for , we create a class then under this class we create two or three or multiple classes,
+this called nested class , is this logically make sense , also can easy to group , like payment system , we have payment system 
+as a outer class ,but we also can have different payment options , like creditcard , paypal , debit ,check ..so they can take all
+to the payment system but can have private method . I think in the jdk 10 , if we created one outer class then let this outer class
+have two inner class , usually we set the second innerclass method as a private.jdk 10 defalut second class method as private, so we 
+cannot able to access the second innercalss method .
+
+if we set the second innerclass , as a static then have static method, then from the outer class we can direct call the second innerclass
+can use that static method without creating an object.
+
+Enum 
+is contain constant of data . maybe year 12months, day 24hours , week 7days, hour 60mintues.like this are constant variable.
